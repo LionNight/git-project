@@ -1,0 +1,42 @@
+# Go 相关
+/bin/
+/build/
+/dist/
+/out/
+
+# 可执行文件（忽略所有无扩展名的文件）
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# 忽略所有 Go 编译输出
+*.test
+
+# 覆盖测试数据
+*.coverprofile
+*.cover.out
+
+# 编译缓存和临时文件
+*.log
+*.tmp
+*.swp
+*.swo
+
+# IDE/编辑器相关
+.vscode/
+.idea/
+*.code-workspace
+*.iml
+
+# 操作系统相关
+.DS_Store
+Thumbs.db
+
+# Go modules
+vendor/
+
+# 如果你使用了 GoLand 的 run configurations
+*.run.xml
+
